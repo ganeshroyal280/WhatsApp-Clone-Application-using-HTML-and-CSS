@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Whatsapp clone HTML & CSS</title>
+        <link rel="stylesheet" type="text/css" href="ganesh.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <a href="#" class="logo">WhatsApp</a>
+                <div class="action">
+                    <a href="#"><ion-icon name="camera-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="search-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="ellipsis-vertical"></ion-icon></a>
+                </div>
+            </header>
+            <div class="tabs">
+                <input id="chats" type="radio" name="group" checked>
+                <input id="status" type="radio" name="group" checked>
+                <input id="calls" type="radio" name="group" checked>
+
+                <div class="buttons">
+                    <label for="chats">Chats(2)</label>
+                    <label for="status">Status</label>
+                    <label for="calls">Calls</label>
+                    <div class ="underline"></div>
+                </div>
+                <div class="quickBtn">
+                    <div class ="btn message"><ion-icon name="chatbubbles"></ion-icon>
+                    </div>
+                    <div class ="btn camers"><ion-icon name="camera"></ion-icon>
+                        <div class="pencil"><ion-icon name="pencil-outline"></ion-icon></div>
+                    </div>
+                    <div class ="btn call"><ion-icon name="call"></ion-icon>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="box chats">
+                        <div class="data">
+                            <div class="chatlist">
+                                <div class="block unread open">
+                                    <div class="imgbx">
+                                        <img src="img1.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <div class="listHead">
+                                            <h4>Rama Krishna</h4>
+                                            <p class="time">10:56</p>
+                                        </div>
+                                        <div class="message_p">
+                                            <p>Hi How are You What's going on</p>
+                                            <b>1</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block unread open2">
+                                    <div class="imgbx">
+                                        <img src="img3.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <div class="listHead">
+                                            <h4>Jenny</h4>
+                                            <p class="time">10.45</p>
+                                        </div>
+                                        <div class="message_p">
+                                            <p>Congrats</p>
+                                            <b>1</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block open3">
+                                    <div class="imgbx">
+                                        <img src="img2.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <div class="listHead">
+                                            <h4>Ganesh</h4>
+                                            <p class="time">10:06</p>
+                                        </div>
+                                        <div class="message_p">
+                                            <p>Hi, can we go for movie ?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block open4">
+                                    <div class="imgbx">
+                                        <img src="img4.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <div class="listHead">
+                                            <h4>Sam</h4>
+                                            <p class="time">yesterday</p>
+                                        </div>
+                                        <div class="message_p">
+                                            <p>I am doing good here</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block open5">
+                                    <div class="imgbx">
+                                        <img src="img5.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <div class="listHead">
+                                            <h4>Nagarjuna</h4>
+                                            <p class="time">yesterday</p>
+                                            </div>
+                                        <div class="message_p">
+                                            <p>Where are you living now?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block open6">
+                                    <div class="imgbx">
+                                        <img src="img6.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <div class="listHead">
+                                            <h4>Chaitanya</h4>
+                                            <p class="time">22/07/2023</p>
+                                        </div>
+                                        <div class="message_p">
+                                            <p>Had breakfast?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block open7">
+                                    <div class="imgbx">
+                                        <img src="img7.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <div class="listHead">
+                                            <h4>Ramya</h4>
+                                            <p class="time">22/07/2023</p>
+                                        </div>
+                                        <div class="message_p">
+                                            <p>How was your new job ?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block open8">
+                                    <div class="imgbx">
+                                        <img src="img8.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <div class="listHead">
+                                            <h4>Rahul</h4>
+                                            <p class="time">21/07/2023</p>
+                                        </div>
+                                        <div class="message_p">
+                                            <p>How was your health ?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box status">
+                        <div class="data">
+                            <div class="chatlist">
+                                <div class="block">
+                                    <div class="imgbx">
+                                        <img src="user.jpg">
+                                    </div>
+                                    <div class="plus">+</div>
+                                    <div class="details">
+                                        <div class="listHead">
+                                            <h4>My Status</h4>
+                                        </div>
+                                        <div class="message_p">
+                                            <p>Tap to add status update</p>
+                                        </div>
+                                    </div>  
+                                </div>
+                                <label>Recent Updates</label>
+                                <div class="block unseen">
+                                    <div class="imgbx">
+                                        <img src="img4.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <div class="listHead">
+                                            <h4>Sam</h4>
+                                        </div>
+                                        <div class="message_p">
+                                            <p>Just Now</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block unseen">
+                                    <div class="imgbx">
+                                        <img src="img5.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <div class="listHead">
+                                            <h4>Nagarjuna</h4>
+                                            </div>
+                                        <div class="message_p">
+                                            <p>30 minutes ago</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block unseen">
+                                    <div class="imgbx">
+                                        <img src="img6.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <div class="listHead">
+                                            <h4>Chaitanya</h4>
+                                        </div>
+                                        <div class="message_p">
+                                            <p>50 minutes ago</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <label>Viewed Updates</label>
+                                <div class="block seen">
+                                    <div class="imgbx">
+                                        <img src="img2.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <div class="listHead">
+                                            <h4>Ganesh</h4>
+                                        </div>
+                                        <div class="message_p">
+                                            <p>yesterday ,20:42</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block seen">
+                                    <div class="imgbx">
+                                        <img src="img3.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <div class="listHead">
+                                            <h4>Jenny</h4>
+                                        </div>
+                                        <div class="message_p">
+                                            <p>20/07/2023 ,4.32</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box calls">
+                        <div class="data">
+                            <div class="chatlist">
+                                <div class="block">
+                                    <div class="imgbx green">
+                                        <ion-icon name="link-outline"></ion-icon>
+                                    </div>
+                                    <div class="details">
+                                        <div class="listHead">
+                                            <h4>Create call link</h4>
+                                        </div>
+                                        <div class="message_p">
+                                            <p>Share a link for your WhatsApp call</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <label>   Recent</label>
+                                <div class="block">
+                                    <div class="imgbx">
+                                        <img src="img3.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <div class="listHead">
+                                            <h4>Jenny</h4>
+                                        </div>
+                                        <div class="message_p incoming">
+                                            <p><ion-icon name="arrow-down"></ion-icon> Yesterday ,4.32</p>
+                                        </div>
+                                    </div>
+                                    <ion-icon name="call" class="call"></ion-icon>
+                                </div>
+                                <div class="block">
+                                    <div class="imgbx">
+                                        <img src="img2.jpg">
+                                    </div>
+                                    <div class="details">
+                                        <div class="listHead">
+                                            <h4>Ganesh</h4>
+                                        </div>
+                                        <div class="message_p outgoing">
+                                            <p><ion-icon name="arrow-up"></ion-icon> 20/07/2023 ,20:42</p>
+                                        </div>
+                                    </div>
+                                    <ion-icon name="call" class="call"></ion-icon>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="chatBox">
+                <div class="chat_header">
+                    <div class="imgcontent">
+                        <ion-icon name="arrow-back-outline" class="back"></ion-icon>
+                        <div class="imgbx">
+                            <img src="img1.jpg">
+                        </div>
+                        <h3>Rama Krishna<br><span>Online</span></h3>
+                    </div>
+                    <div class="actionBtns">
+                        <ion-icon name="videocam"></ion-icon>
+                        <ion-icon name="call"></ion-icon>
+                        <ion-icon name="ellipsis-vertical"></ion-icon>
+                    </div>
+                </div>
+                <div class="messageBox">
+                    <div class="message">Hi How are You What's going on<br><span class="time">10:56</span></div>
+                    <div class="messageInput">
+                        <div class="input">
+                            <ion-icon name="happy-outline"></ion-icon>
+                            <textarea rows="1" cols="20" placeholder="Message"></textarea>
+                            <ion-icon name="attach" class="deg45"></ion-icon>
+                            <ion-icon name="camera"></ion-icon>
+                        </div>
+                        <div class="mic"><ion-icon name="mic"></ion-icon></div>
+                    </div>
+                </div>
+            </div>
+            <div class="chatBox2"> 
+                <div class="chat_header">
+                    <div class="imgcontent">
+                        <ion-icon name="arrow-back-outline" class="back2"></ion-icon>
+                        <div class="imgbx">
+                            <img src="img3.jpg">
+                        </div>
+                        <h3>Jenny<br><span>Online</span></h3>
+                    </div>
+                    <div class="actionBtns">
+                        <ion-icon name="videocam"></ion-icon>
+                        <ion-icon name="call"></ion-icon>
+                        <ion-icon name="ellipsis-vertical"></ion-icon>
+                    </div>
+                </div>
+                <div class="messageBox">
+                    <div class="message">Congrats<br><span class="time">10:45</span></div>
+                    <div class="messageInput">
+                        <div class="input">
+                            <ion-icon name="happy-outline"></ion-icon>
+                            <textarea rows="1" cols="20" placeholder="Message"></textarea>
+                            <ion-icon name="attach" class="deg45"></ion-icon>
+                            <ion-icon name="camera"></ion-icon>
+                        </div>
+                        <div class="mic"><ion-icon name="mic"></ion-icon></div>
+                    </div>
+                </div>
+            </div>
+            <div class="chatBox3"> 
+                <div class="chat_header">
+                    <div class="imgcontent">
+                        <ion-icon name="arrow-back-outline" class="back3"></ion-icon>
+                        <div class="imgbx">
+                            <img src="img2.jpg">
+                        </div>
+                        <h3>Ganesh<br><span>Last Seen 10:07</span></h3>
+                    </div>
+                    <div class="actionBtns">
+                        <ion-icon name="videocam"></ion-icon>
+                        <ion-icon name="call"></ion-icon>
+                        <ion-icon name="ellipsis-vertical"></ion-icon>
+                    </div>
+                </div>
+                <div class="messageBox">
+                    <div class="message">Hi, can we go for movie ?<br><span class="time">10:06</span></div>
+                    <div class="messageInput">
+                        <div class="input">
+                            <ion-icon name="happy-outline"></ion-icon>
+                            <textarea rows="1" cols="20" placeholder="Message"></textarea>
+                            <ion-icon name="attach" class="deg45"></ion-icon>
+                            <ion-icon name="camera"></ion-icon>
+                        </div>
+                        <div class="mic"><ion-icon name="mic"></ion-icon></div>
+                    </div>
+                </div>
+            </div>
+            <div class="chatBox4"> 
+                <div class="chat_header">
+                    <div class="imgcontent">
+                        <ion-icon name="arrow-back-outline" class="back4"></ion-icon>
+                        <div class="imgbx">
+                            <img src="img4.jpg">
+                        </div>
+                        <h3>Sam<br><span>Last Seen 09:03</span></h3>
+                    </div>
+                    <div class="actionBtns">
+                        <ion-icon name="videocam"></ion-icon>
+                        <ion-icon name="call"></ion-icon>
+                        <ion-icon name="ellipsis-vertical"></ion-icon>
+                    </div>
+                </div>
+                <div class="messageBox">
+                    <div class="message">I am doing good here<br><span class="time">11:35</span></div>
+                    <div class="messageInput">
+                        <div class="input">
+                            <ion-icon name="happy-outline"></ion-icon>
+                            <textarea rows="1" cols="20" placeholder="Message"></textarea>
+                            <ion-icon name="attach" class="deg45"></ion-icon>
+                            <ion-icon name="camera"></ion-icon>
+                        </div>
+                        <div class="mic"><ion-icon name="mic"></ion-icon></div>
+                    </div>
+                </div>
+            </div>
+            <div class="chatBox5"> 
+                <div class="chat_header">
+                    <div class="imgcontent">
+                        <ion-icon name="arrow-back-outline" class="back5"></ion-icon>
+                        <div class="imgbx">
+                            <img src="img5.jpg">
+                        </div>
+                        <h3>Nagarjuna<br><span>Last Seen 01:54</span></h3>
+                    </div>
+                    <div class="actionBtns">
+                        <ion-icon name="videocam"></ion-icon>
+                        <ion-icon name="call"></ion-icon>
+                        <ion-icon name="ellipsis-vertical"></ion-icon>
+                    </div>
+                </div>
+                <div class="messageBox">
+                    <div class="message">Where are you living now?<br><span class="time">07:14</span></div>
+                    <div class="messageInput">
+                        <div class="input">
+                            <ion-icon name="happy-outline"></ion-icon>
+                            <textarea rows="1" cols="20" placeholder="Message"></textarea>
+                            <ion-icon name="attach" class="deg45"></ion-icon>
+                            <ion-icon name="camera"></ion-icon>
+                        </div>
+                        <div class="mic"><ion-icon name="mic"></ion-icon></div>
+                    </div>
+                </div>
+            </div>
+            <div class="chatBox6"> 
+                <div class="chat_header">
+                    <div class="imgcontent">
+                        <ion-icon name="arrow-back-outline" class="back6"></ion-icon>
+                        <div class="imgbx">
+                            <img src="img6.jpg">
+                        </div>
+                        <h3>Chaitanya<br><span>Last Seen 5:37</span></h3>
+                    </div>
+                    <div class="actionBtns">
+                        <ion-icon name="videocam"></ion-icon>
+                        <ion-icon name="call"></ion-icon>
+                        <ion-icon name="ellipsis-vertical"></ion-icon>
+                    </div>
+                </div>
+                <div class="messageBox">
+                    <div class="message">Had breakfast?<br><span class="time">12:36</span></div>
+                    <div class="messageInput">
+                        <div class="input">
+                            <ion-icon name="happy-outline"></ion-icon>
+                            <textarea rows="1" cols="20" placeholder="Message"></textarea>
+                            <ion-icon name="attach" class="deg45"></ion-icon>
+                            <ion-icon name="camera"></ion-icon>
+                        </div>
+                        <div class="mic"><ion-icon name="mic"></ion-icon></div>
+                    </div>
+                </div>
+            </div>
+            <div class="chatBox7"> 
+                <div class="chat_header">
+                    <div class="imgcontent">
+                        <ion-icon name="arrow-back-outline" class="back7"></ion-icon>
+                        <div class="imgbx">
+                            <img src="img7.jpg">
+                        </div>
+                        <h3>Ramya<br><span>Last Seen 03:33</span></h3>
+                    </div>
+                    <div class="actionBtns">
+                        <ion-icon name="videocam"></ion-icon>
+                        <ion-icon name="call"></ion-icon>
+                        <ion-icon name="ellipsis-vertical"></ion-icon>
+                    </div>
+                </div>
+                <div class="messageBox">
+                    <div class="message">How was your new job ?<br><span class="time">6:30</span></div>
+                    <div class="messageInput">
+                        <div class="input">
+                            <ion-icon name="happy-outline"></ion-icon>
+                            <textarea rows="1" cols="20" placeholder="Message"></textarea>
+                            <ion-icon name="attach" class="deg45"></ion-icon>
+                            <ion-icon name="camera"></ion-icon>
+                        </div>
+                        <div class="mic"><ion-icon name="mic"></ion-icon></div>
+                    </div>
+                </div>
+            </div>
+            <div class="chatBox8"> 
+                <div class="chat_header">
+                    <div class="imgcontent">
+                        <ion-icon name="arrow-back-outline" class="back8"></ion-icon>
+                        <div class="imgbx">
+                            <img src="img8.jpg">
+                        </div>
+                        <h3>Rahul<br><span>Online</span></h3>
+                    </div>
+                    <div class="actionBtns">
+                        <ion-icon name="videocam"></ion-icon>
+                        <ion-icon name="call"></ion-icon>
+                        <ion-icon name="ellipsis-vertical"></ion-icon>
+                    </div>
+                </div>
+                <div class="messageBox">
+                    <div class="message">How was your health ?<br><span class="time">6:02
+                    </span></div>
+                    <div class="messageInput">
+                        <div class="input">
+                            <ion-icon name="happy-outline"></ion-icon>
+                            <textarea rows="1" cols="20" placeholder="Message"></textarea>
+                            <ion-icon name="attach" class="deg45"></ion-icon>
+                            <ion-icon name="camera"></ion-icon>
+                        </div>
+                        <div class="mic"><ion-icon name="mic"></ion-icon></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        let back = document.querySelector('.back');
+        let chatBox= document.querySelector('.chatBox');
+        let open = document.querySelector('.open');
+        back.onclick = function(){
+            chatBox.classList.add('hide');
+        }
+        open.onclick = function(){
+            chatBox.classList.remove('hide');
+        }
+    </script>
+    <script>   
+        let back2 = document.querySelector('.back2');
+        let chatBox2= document.querySelector('.chatBox2');
+        let open2 = document.querySelector('.open2');
+        back2.onclick = function(){
+            chatBox2.classList.add('hide');
+        }
+        open2.onclick = function(){
+            chatBox2.classList.remove('hide');
+        }
+    </script>
+    <script>   
+        let back3 = document.querySelector('.back3');
+        let chatBox3= document.querySelector('.chatBox3');
+        let open3 = document.querySelector('.open3');
+        back3.onclick = function(){
+            chatBox3.classList.add('hide');
+        }
+        open3.onclick = function(){
+            chatBox3.classList.remove('hide');
+        }
+    </script>
+    <script>   
+        let back4 = document.querySelector('.back4');
+        let chatBox4= document.querySelector('.chatBox4');
+        let open4 = document.querySelector('.open4');
+        back4.onclick = function(){
+            chatBox4.classList.add('hide');
+        }
+        open4.onclick = function(){
+            chatBox4.classList.remove('hide');
+        }
+    </script>
+    <script>   
+        let back5 = document.querySelector('.back5');
+        let chatBox5= document.querySelector('.chatBox5');
+        let open5 = document.querySelector('.open5');
+        back5.onclick = function(){
+            chatBox5.classList.add('hide');
+        }
+        open5.onclick = function(){
+            chatBox5.classList.remove('hide');
+        }
+    </script>
+    <script>   
+        let back6 = document.querySelector('.back6');
+        let chatBox6= document.querySelector('.chatBox6');
+        let open6 = document.querySelector('.open6');
+        back6.onclick = function(){
+            chatBox6.classList.add('hide');
+        }
+        open6.onclick = function(){
+            chatBox6.classList.remove('hide');
+        }
+    </script>
+    <script>   
+        let back7 = document.querySelector('.back7');
+        let chatBox7= document.querySelector('.chatBox7');
+        let open7 = document.querySelector('.open7');
+        back7.onclick = function(){
+            chatBox7.classList.add('hide');
+        }
+        open7.onclick = function(){
+            chatBox7.classList.remove('hide');
+        }
+    </script>
+    <script>   
+        let back8 = document.querySelector('.back8');
+        let chatBox8= document.querySelector('.chatBox8');
+        let open8 = document.querySelector('.open8');
+        back8.onclick = function(){
+            chatBox8.classList.add('hide');
+        }
+        open8.onclick = function(){
+            chatBox8.classList.remove('hide');
+        }
+    </script>
+    </body>
+</html>
